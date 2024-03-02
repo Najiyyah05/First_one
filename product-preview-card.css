@@ -12,12 +12,13 @@ body{
 }
 main{
     max-width: 550px;
-    border-radius: 1rem;
 }
 .product-card{
+    border-radius: 1rem;
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 2rem;
+    padding: 5px;
 }
 img{
     display: block;
